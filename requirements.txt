@@ -11,3 +11,8 @@ integral-client==1.1.0.dev5+cd9d19f
 odahub-zenodo
 oda-hub==1.0.3.dev1+23543fa
 oda==1.1.0.dev3+38b8ab8
+
+jsonschema==2.6.0
+astroquery
+pillow
+oda_api
