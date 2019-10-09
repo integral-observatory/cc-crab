@@ -16,3 +16,5 @@ jsonschema==2.6.0
 astroquery
 pillow
 oda_api
+
+nb2workflow==1.2.0
