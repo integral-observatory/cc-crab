@@ -11,15 +11,16 @@ are publicly available.
 
 # In the Makefile:
 
-nb2worker is a wrapper to run a docker container and produce output that is 
-discoverable (?)
-
 integralsw/osa-python is the *base* docker image
 
-nbrun runs notebook in a one-shot way,
+for details on the nb2workflow functions see directly https://github.com/volodymyrss/nb2workflow
 
-nb2service runs a service that can execute the notebook on demand
+extract of some of the functions useful here:
 
+- *nbrun* runs notebook in a one-shot way. This can be done for test locally, and it is also done inside CWL container job (e.g. on REANA)
 
-Wrappers are available in github
+- *nb2service* runs a discoverable service that can execute the notebook on demand.
+ 
+- *nb2worker* builds a container, either one-shot (for CWL) or service
+
 
