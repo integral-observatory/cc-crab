@@ -1,4 +1,4 @@
-IMAGE?=admin.reproducible.online/cw-crab:v6
+IMAGE?=cdci/cdci/crab-integral-verification:$(shell git describe --always --tags)
 
 build:
 	nb2worker ./ --build --tag-image $(IMAGE) --job --from integralsw/osa-python --docker-run-prefix="mkdir -pv /home/oda; export HOME_OVERRRIDE=/home/oda; source /init.sh; " --docker-command='id; export HOME_OVERRRIDE=/tmp; mkdir -pv $$HOME_OVERRRIDE; source /init.sh; source /etc/bashrc; nbrun /repo/crab.ipynb $$@'
