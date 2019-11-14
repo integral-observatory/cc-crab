@@ -1,0 +1,4 @@
+include:
+  - remote: "https://gitlab.astro.unige.ch/savchenk/ci-template-cc/raw/master/gitlab-ci-template.yaml"
+
+

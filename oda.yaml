@@ -1,0 +1,4 @@
+metadata:
+  source_short_name: crab
+uri_base: http://odahub.io/cc/crab
+root_notebook: crab.ipynb
