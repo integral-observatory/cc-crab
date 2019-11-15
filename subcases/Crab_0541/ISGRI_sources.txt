@@ -1,0 +1,2 @@
+X,Y,RA,Dec,peak_counts,RMS,exposure,arcmin_to_cat,association
+343.405,341.51,83.6349541,22.0181912,143.898,0.232015,132165.0,0.243386244401,Crab
