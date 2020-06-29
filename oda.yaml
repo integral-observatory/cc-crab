@@ -2,3 +2,4 @@ metadata:
   source_short_name: crab
 uri_base: http://odahub.io/cc/crab
 root_notebook: crab.ipynb
+cc_base_image: integralsw/osa-python:11.1-3-g87cee807-20200410-144247-refcat-43.0-heasoft-6.27.2-python-3.8.2
