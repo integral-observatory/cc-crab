@@ -4,7 +4,7 @@ diskcache
 pillow
 sentry-sdk==0.7.10
 
-integral-client==1.1.0.dev5+cd9d19f
+integral-client==1.1.6
 
 jsonschema==2.6.0
 astroquery
@@ -12,7 +12,7 @@ pillow
 oda_api
 
 
-oda-knowledge-base==0.2.25
+oda-knowledge-base==0.6.15
 oda-client==1.3.2
 
 nb2workflow==1.2.13
