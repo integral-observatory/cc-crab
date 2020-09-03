@@ -7,5 +7,3 @@ that can be stored in a portable manner. This output includes the systematic nee
 to fit the spectrum, the minimum valid energy etc.
 
 See also notes on common [actions](https://gitlab.astro.unige.ch/savchenk/ci-template-cc).
-
-
